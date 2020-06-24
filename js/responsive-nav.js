@@ -5,14 +5,20 @@ $(document).ready(function() {
 	$(".nav li a").each(function() {
 		if ($(this).next().length > 0) {
 			$(this).addClass("parent");
-		};
+        };
+        $(this).click(function (e) {
+            if (ww < 800) {
+                $(".nav").hide();
+            }
+        });
 	})
 	
 	$(".toggleMenu").click(function(e) {
 		e.preventDefault();
 		$(this).toggleClass("active");
 		$(".nav").toggle();
-	});
+    });
+
 	adjustMenu();
 })
 
