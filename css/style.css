@@ -41,8 +41,12 @@ body{
 	-o-transition:all .2s linear; 
 	-ms-transition:all .2s linear;
 }
-.header-top{
-	background:rgba(12, 39, 40, 0.31);
+.header-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(12, 39, 40, 0.31);
+    z-index: 200;
 }
 .logo{
 	float:left;
@@ -111,7 +115,7 @@ span.green{
 .nav ul {
     list-style: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:799px) {
 	.menu {
 		margin:10px 0;
 	}
@@ -1083,7 +1087,7 @@ ul.m_11 li img{
 	vertical-align:middle;
 }
 .copy{
-	margin-top:15%;
+	margin-top:20px;
 }
 .copy p {
 	color: #022B22;
@@ -2027,9 +2031,7 @@ i.blog_icon5{
 		bottom: 8px;
 		width:30px;
 	}
-	.slider_text h2 {
-		display: none;
-	}
+	
 	.desc {
 		width: 77.5%;
 	}
