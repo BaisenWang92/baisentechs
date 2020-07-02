@@ -986,8 +986,9 @@ li.g2 a span {
 }
 /*--footer-bottom--*/
 .footer-bottom{
+    text-align:center;
 	background:#0FCF8C;
-	padding:5% 0;
+	padding:1% 0;
 }
 .col_1_of_5:first-child {
 	margin-left: 0;

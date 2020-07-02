@@ -12,11 +12,6 @@
     transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
-body {
-
-    font-size: 100%;
-    padding: 3em 0;
-}
 
 .promos {
     max-width: 1140px;
